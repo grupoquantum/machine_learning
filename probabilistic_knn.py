@@ -1,0 +1,13 @@
+from Neuraline.ArtificialIntelligence.MachineLearning.SupervisedLearning.probabilistic_knn import ProbabilisticKNN
+probabilistic_knn = ProbabilisticKNN()
+''' classificação de exemplo entre unidades, dezenas e centenas '''
+inputs = [[1, 2], [10, 20], [100, 200], [3, 4], [30, 40], [300, 400], [5, 6], [50, 60], [500, 600]]
+outputs = [['unidades'], ['dezenas'], ['centenas'], ['unidades'], ['dezenas'], ['centenas'], ['unidades'], ['dezenas'], ['centenas']]
+probabilistic_knn.fit(
+	inputs=inputs, # entradas de exemplo
+	outputs=outputs, # saídas de exemplo
+	k=0 # número referente a quantidade de vizinhos mais próximos
+)
+new_inputs = [[2, 3], [20, 30], [200, 300], [4, 5], [40, 50], [400, 500], [6, 7], [60, 70], [600, 700]] # novas entradas para predizer
+new_outputs = probabilistic_knn.predict(inputs=new_inputs) # método de predição
+print(new_outputs) # exibe as novas saídas com base nas novas entradas
