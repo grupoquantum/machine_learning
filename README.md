@@ -94,7 +94,7 @@ Resultado:
 <p align="justify">
 O Naive Bayes ou (Bayes Ingênuos) que recebe o nome de ingênuo por assumir previamente que existe uma forte correlação entre os dados, foi criado com base no famoso teorema do matemático britânico Thomas Bayes que é conhecido como Teorema de Bayes. Na fórmula fazemos um cálculo simples que calcula a probabilidade de uma entrada pertencer a uma determinada classe simplesmente calculando a probabilidade dessa mesma classe pertencer a essa mesma entrada multiplicada pela probabilidade da entrada pertencer a qualquer uma das classes, dividindo esse produto pela probabilidade da classe pertencer a qualquer uma das entradas. Veja abaixo a fórmula do teorema:
 </p>
-<p align="center"><img src="https://github.com/aiquantumneuro/machine_learning/blob/main/teorema_de_bayes.jpg"></p>
+<p align="center"><img src="https://github.com/grupoquantum/machine_learning/blob/main/teorema_de_bayes.jpg"></p>
 <p align="justify">
 Uma variação desse tipo de resultado pode ser conseguida através do algoritmo K-Nearest Neighbors Probabilístico que calcula a distância euclidiana do KNN através de respostas probabilísticas.
 </p>
